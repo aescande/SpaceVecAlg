@@ -28,10 +28,10 @@ environment:
 # Do not tinker with the variables below unless you know what you are doing
   SOURCE_FOLDER: C:\devel-src
   CMAKE_INSTALL_PREFIX: C:/devel
-  PATH: C:/devel/bin;C:\Libraries\boost_1_59_0\lib64-msvc-14.0;C:\msys64\mingw64\bin;%PATH%
+  PATH: C:/devel/bin;C:\Libraries\boost_1_60_0\lib64-msvc-14.0;C:\msys64\mingw64\bin;%PATH%
   PKG_CONFIG_PATH: C:/devel/lib/pkgconfig
-  BOOST_ROOT: C:\Libraries\boost_1_59_0
-  BOOST_LIBRARYDIR: C:\Libraries\boost_1_59_0\lib64-msvc-14.0
+  BOOST_ROOT: C:\Libraries\boost_1_60_0
+  BOOST_LIBRARYDIR: C:\Libraries\boost_1_60_0\lib64-msvc-14.0
   MINGW_GFORTRAN: C:\msys64\mingw64\bin\gfortran.exe
 build_script:
 - ps: >-
