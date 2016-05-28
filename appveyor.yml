@@ -52,6 +52,6 @@ test_script:
     cd %PROJECT_SOURCE_DIR%/build
 
     ctest
-
+    
 -on_finish:
 -- ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
