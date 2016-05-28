@@ -16,6 +16,13 @@
 # along with SpaceVecAlg.  If not, see <http://www.gnu.org/licenses/>.
 
 version: 1.0.{build}
+
+configuration:
+- Debug
+
+platform:
+- x64
+
 os: Visual Studio 2015
 clone_folder: C:/devel-src/SpaceVecAlg
 init:
